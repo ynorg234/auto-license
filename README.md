@@ -4,7 +4,7 @@ absurdly fast, able to do the entire Linux kernel [its c, rust, GNU Asm, Python,
 WILL choke on large sourcecode files, as i didnt implement buffer-on-read. (will fix later.)
 
 <p align="center">
-  <video src="edited.mp4" autoplay loop muted playsinline width="100%" style="max-width: 800px; border-radius: 8px;"></video>
+  <video src="https://github.com/user-attachments/assets/bb940c26-9c2f-4b34-9a78-a156dd76a9bf" autoplay loop muted playsinline width="100%" style="max-width: 800px; border-radius: 8px;"></video>
 </p>
 
 ## Why create this?
