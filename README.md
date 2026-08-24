@@ -1,8 +1,11 @@
 # auto-license
-a nice little auto-licensing machine written in Go under the Apache license. 
+a nice little single-file auto-licensing machine written in Go under the Apache license. 
 absurdly fast, able to do the entire Linux kernel [its c, rust, GNU Asm, Python, and Shell [with extension] files] in ~7sec (max) using the default config as provided.
 WILL choke on large sourcecode files, as i didnt implement buffer-on-read. (will fix later.)
 
+<p align="center">
+  <img src="edited.gif" alt="auto-license demo run" width="100%" style="max-width: 800px; border-radius: 8px;" />
+</p>
 
 ## Why create this?
 * I wanted a tool that was dead simple to use and integrate into my projects.
