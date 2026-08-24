@@ -20,6 +20,7 @@ WILL choke on large sourcecode files, as i didnt implement buffer-on-read. (will
 ## Disadvantages
 * The filename auto-license uses for config can conflict with other files in the project, and it can't be changed without sourcecode modification.
 * No TUI/CLI, only run it and it goes off.
+* I suck at documentation.
 
 ## Usage
 
