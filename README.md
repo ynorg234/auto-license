@@ -4,7 +4,7 @@ absurdly fast, able to do the entire Linux kernel [its c, rust, GNU Asm, Python,
 WILL choke on large sourcecode files, as i didnt implement buffer-on-read. (will fix later.)
 
 <p align="center">
-  <img src="edited.mp4" alt="auto-license demo run" width="100%" style="max-width: 800px; border-radius: 8px;" />
+  <video src="edited.mp4" autoplay loop muted playsinline width="100%" style="max-width: 800px; border-radius: 8px;"></video>
 </p>
 
 ## Why create this?
