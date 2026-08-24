@@ -22,24 +22,33 @@ WILL choke on large sourcecode files, as i didnt implement buffer-on-read. (will
 
 ### 1. License text.
 Put a file named 'license.txt' into the same directory as the binary.
+
 This should hold whatever license you wish to apply to your code.
 
 ### 2. Config
 The repo has a example config file named "auto_license-config-EXAMPLE.json"
+
 You can use it [after renaming it to auto_license-config.json], however I recommend configuring other programming languages as it doesn't even have Go.
+
 The filename must be 'auto_license-config.json', and the config has a JSON structure:
+
 `
 {
   "EXTENSION": "INSERT_COMMENT_FORMAT"
 }
 `
+
 The extension must retain the dot, otherwise it will not work. [checking uses filepath.Ext]
+
 You can add more types by simply adding a new JSON field, as it is parsed like a map[string]string.
+
 The comment format refers to how you write 'prepend' comments, e.g using "//" for C-style languages.
 
 ### 3. Run the file.
 If you are using binaries or even compiled it yourself, the binary goes into the working directory of whatever project you are working on.
+
 (Note: it will crawl all subdirectories as well.(
+
 Then, simply run the binary, ensuring that both the license and config are in the same directory as the binary. Done!
 
 
